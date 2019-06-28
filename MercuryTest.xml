@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="MercuryLogin">
+  <parameter name="user" value="platoon20033"/>
+  <parameter name="pass" value="Ankara0808."/>
+    <classes>
+      <class name="com.syntax.testcases.MercuryLoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

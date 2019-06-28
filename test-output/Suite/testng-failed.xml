@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MercuryLogin(failed)">
+    <parameter name="pass" value="Ankara0909."/>
+    <parameter name="user" value="squad20033"/>
+    <classes>
+      <class name="com.syntax.testcases.MercuryLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginWithWrongPass" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="loginWithTruePass"/>
+        </methods>
+      </class> <!-- com.syntax.testcases.MercuryLoginPageTest -->
+    </classes>
+  </test> <!-- MercuryLogin(failed) -->
+</suite> <!-- Failed suite [Suite] -->
